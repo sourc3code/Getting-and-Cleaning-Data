@@ -35,6 +35,11 @@ The original dataset had 2 seperate datasets training and test. They were combin
 
 Then all the features in the combined dataset was averaged for each Activity and each Subject producing a much smaller dataset.
 
+It was noted that in the features.txt file
+
+fBodyBody was incorrectly written where fBody was expected in some of the features.txt. Analysis script removes the duplicate.
+
+
 ##TidyDataSet.csv 
 
 | VARIABLE NAME | POSITION| DESCRIPTION  | VALUES OR EXPLANATION |
@@ -102,12 +107,12 @@ Then all the features in the combined dataset was averaged for each Activity and
 | fBodyGyro_STD_AVG_Z | 60 | The Mean of all the Standard Deviation values | Its range is from -0.986725274871795 to 0.522454216314815 |
 | fBodyAccMag_AVG_AVG | 61 | The Mean of all the Mean values | Its range is from -0.986800645362319 to 0.586637550769231 |
 | fBodyAccMag_STD_AVG | 62 | The Mean of all the Standard Deviation values | Its range is from -0.987648484461539 to 0.178684580868889 |
-| fBodyBodyAccJerkMag_AVG_AVG | 63 | The Mean of all the Mean values | Its range is from -0.993998275797101 to 0.538404846128205 |
-| fBodyBodyAccJerkMag_STD_AVG | 64 | The Mean of all the Standard Deviation values | Its range is from -0.994366667681159 to 0.316346415348718 |
-| fBodyBodyGyroMag_AVG_AVG | 65 | The Mean of all the Mean values | Its range is from -0.986535242105263 to 0.203979764835897 |
-| fBodyBodyGyroMag_STD_AVG | 66 | The Mean of all the Standard Deviation values | Its range is from -0.981468841692308 to 0.236659662496296 |
-| fBodyBodyGyroJerkMag_AVG_AVG | 67 | The Mean of all the Mean values | Its range is from -0.997617389275362 to 0.146618569064407 |
-| fBodyBodyGyroJerkMag_STD_AVG | 68 | The Mean of all the Standard Deviation values | Its range is from -0.99758523057971 to 0.287834616098305 |
+| fBodyAccJerkMag_AVG_AVG | 63 | The Mean of all the Mean values | Its range is from -0.993998275797101 to 0.538404846128205 |
+| fBodyAccJerkMag_STD_AVG | 64 | The Mean of all the Standard Deviation values | Its range is from -0.994366667681159 to 0.316346415348718 |
+| fBodyGyroMag_AVG_AVG | 65 | The Mean of all the Mean values | Its range is from -0.986535242105263 to 0.203979764835897 |
+| fBodyGyroMag_STD_AVG | 66 | The Mean of all the Standard Deviation values | Its range is from -0.981468841692308 to 0.236659662496296 |
+| fBodyGyroJerkMag_AVG_AVG | 67 | The Mean of all the Mean values | Its range is from -0.997617389275362 to 0.146618569064407 |
+| fBodyGyroJerkMag_STD_AVG | 68 | The Mean of all the Standard Deviation values | Its range is from -0.99758523057971 to 0.287834616098305 |
 ||
 
  

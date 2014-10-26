@@ -70,6 +70,7 @@ step3<-function(df,features) {
     colnames(df)<-gsub("-mean()-","_AVG_AVG_",x = colnames(df),fixed = TRUE)
     colnames(df)<-gsub("-std()","_STD_AVG",x = colnames(df),fixed = TRUE)
     colnames(df)<-gsub("-mean()","_AVG_AVG",x = colnames(df),fixed = TRUE)
+    colnames(df)<-gsub("BodyBody","Body",x = colnames(df),fixed = TRUE)
     df
 }
 ##Uses descriptive activity names to name the activities in the data set

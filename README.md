@@ -1,6 +1,6 @@
 #run_analysis.R
 
-Create a TidyDataSet.csv file that is the aggregates of the UCI HAR Dataset by activity and by subject.
+Create a TidyDataSet.txt file that is the aggregates of the UCI HAR Dataset by activity and by subject.
 
 Script contains 6 functions namely
 
@@ -69,7 +69,7 @@ activity_labels.txt
 
 #step5 function
 ##tidy dataframe
-This step aggregates the merged data frame object by subject and activity to produce a tidy dataframe that is written out as "TidyDataSet.csv" the tidy dataframe is also returned so that the calling function can return this as a result.
+This step aggregates the merged data frame object by subject and activity to produce a tidy dataframe that is written out as "TidyDataSet.txt" the tidy dataframe is also returned so that the calling function can return this as a result.
 
 
 

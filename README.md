@@ -15,6 +15,7 @@ Script contains 6 functions namely
 
 #Usage
 source("run_analysis.R")
+
 tidyds<-run_analysis()
 
 #Requirements
@@ -36,7 +37,7 @@ step1, step2, step3, step4 and finally step5
 
 #step1 function
 ##Merges the training and the test sets to create one data set.
-checks if the dir specified as arg exists
+Checks if the dir specified as arg exists
 if not it creates it and copies the test data set files to it
 the files copied include:
 
@@ -58,12 +59,12 @@ the dataframe is return to be used as input arg for step3
  
 #step3 function
 ##Appropriately labels the data set with descriptive variable names.
-uses the features variable to get all the desc of cols with mean() or std() in it and combines it with a list containing "Subject","Activity". This combined list is assigned
+Uses the features variable to get all the desc of cols with mean() or std() in it and combines it with a list containing "Subject","Activity". This combined list is assigned
 to the cols of the merged dataset
 
 #step4 function
 ##Uses descriptive activity names to name the activities in the data set
-replaces the Activity column in the data frame with the corresponding text read from
+Replaces the Activity column in the data frame with the corresponding text read from
 activity_labels.txt
 
 #step5 function
